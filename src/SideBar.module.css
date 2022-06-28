@@ -1,0 +1,25 @@
+.sideBar{
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  height: 100vh;
+  background-color: #2f3135;
+}
+
+.sideBarTop{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2f3135;
+  color: white;
+  border-bottom: 3px solid #26282c;
+  align-items: center;
+}
+
+.sideBarChannels {
+  flex:1;
+}
+
+.sideBarAddChannel{
+  color: white;
+}
