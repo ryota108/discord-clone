@@ -1,4 +1,4 @@
-.sideBar{
+.sideBar {
   display: flex;
   flex-direction: column;
   flex: 0.25;
@@ -6,7 +6,7 @@
   background-color: #2f3135;
 }
 
-.sideBarTop{
+.sideBarTop {
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -17,9 +17,59 @@
 }
 
 .sideBarChannels {
-  flex:1;
+  flex: 1;
 }
 
-.sideBarAddChannel{
+.sideBarAddChannel {
+  cursor: pointer;
+}
+
+.sideBarAddChannel:hover {
   color: white;
+}
+
+.sideBarChannelsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #2f3135;
+  color: gray;
+}
+
+.sideBarHeader {
+  display: flex;
+  align-items: center;
+}
+
+.sideBarVoice,
+.sideBarProfile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  background-color: #2f3135;
+  padding: 10px;
+  border-top: 1px solid gray;
+}
+
+.sideBarVoiceInfo {
+  flex: 1;
+  padding: 10px;
+}
+.sideBarVoiceInfo > h3 {
+  color: #4fb185;
+}
+.sideBarVoiceInfo > p {
+  font-size: smaller;
+}
+
+.sideBarVoiceIcon {
+  color: #4fb185;
+}
+.sideBarVoiceIcon {
+  color: #4fb185;
+}
+.sideBarVoiceIcons > .MuiSvgIcon-root {
+  padding: 10px;
 }
