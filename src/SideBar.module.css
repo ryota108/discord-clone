@@ -73,3 +73,16 @@
 .sideBarVoiceIcons > .MuiSvgIcon-root {
   padding: 10px;
 }
+
+.sideBarProfileInfo{
+  flex: 1;
+  padding: 10px;
+}
+
+.sideBarProfileInfo > h3{
+ color: white;
+}
+
+.sideBarProfileIcon  {
+  padding: 10px !important;
+}

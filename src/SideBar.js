@@ -58,9 +58,9 @@ function SideBar() {
           <p>#thisIsMyID</p>
         </div>
         <div className={classes.sidebarProfileIcons}>
-          <MicIcon />
-          <HeadsetIcon />
-          <SettingsIcon />
+          <MicIcon className={classes.sidebarProfileIcon} />
+          <HeadsetIcon className={classes.sidebarProfileIcon} />
+          <SettingsIcon className={classes.sidebarProfileIcon} />
         </div>
       </div>
     </div>
