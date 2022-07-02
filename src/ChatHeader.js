@@ -7,12 +7,12 @@ import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import SendRoundedIcon from '@mui/icons-material/SendRounded';
 import HelpRoundedIcon from '@mui/icons-material/HelpRounded';
 
-function ChatHeader() {
+function ChatHeader({channelName}) {
   return (
     <div className={classes.chatHeader}>
       <div className={classes.chatHeaderLeft}>
         <h3>
-          <span className={classes.chatHeaderHash}>#</span>Test channel name
+          <span className={classes.chatHeaderHash}>#</span>{channelName}
         </h3>
       </div>
       <div className={classes.chatHeaderRight}>
