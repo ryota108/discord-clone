@@ -42,7 +42,7 @@ function SideBar() {
   return (
     <div className={classes.sideBar}>
       <div className={classes.sideBarTop}>
-        <h3>ARAN</h3>
+        <h3>Wasecord</h3>
         <ExpandMoreIcon />
       </div>
 

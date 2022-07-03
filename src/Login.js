@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Login.module.css";
 import {auth,provider} from "./firebase";
+import logo from "../src/Images/Wasecord.png";
 
 function Login() {
   const signIn = () => {
@@ -11,7 +12,7 @@ function Login() {
     <div className={classes.login}>
       <div className={classes.loginLogo}>
         <img
-          src="https://www.dospara.co.jp/5info/img/str_gamepc_discord/str_gamepc_discord001.png"
+          src={logo}
           alt=""
         />
       </div>
