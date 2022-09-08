@@ -7,13 +7,7 @@ import "firebase/compat/firestore";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
-  apiKey: "AIzaSyAapghXCnwN1UVYU2Mtx--PXZ4PCK5M7Yk",
-  authDomain: "discord-clone-7dec1.firebaseapp.com",
-  projectId: "discord-clone-7dec1",
-  storageBucket: "discord-clone-7dec1.appspot.com",
-  messagingSenderId: "165553525750",
-  appId: "1:165553525750:web:6a46665b0a94d58ccfadd7",
-  measurementId: "G-XRRE5D0EHF"
+//   apiの設定内容
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
